@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C47F85927BDC2AC001BC6D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47F85827BDC2AC001BC6D8 /* main.swift */; };
+		4C47F86227BDC31D001BC6D8 /* SwiftKueryMySQL in Frameworks */ = {isa = PBXBuildFile; productRef = 4C47F86127BDC31D001BC6D8 /* SwiftKueryMySQL */; };
+		4C47F86427BDC32C001BC6D8 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47F86327BDC32C001BC6D8 /* Database.swift */; };
+		4C47F86627BDC65B001BC6D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47F86527BDC65B001BC6D8 /* Model.swift */; };
+		4C47F86927BDC820001BC6D8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47F86827BDC820001BC6D8 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C47F85327BDC2AC001BC6D8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C47F85527BDC2AC001BC6D8 /* Filme10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Filme10; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C47F85827BDC2AC001BC6D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4C47F86327BDC32C001BC6D8 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		4C47F86527BDC65B001BC6D8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4C47F86727BDC7F2001BC6D8 /* connection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = connection.json; sourceTree = "<group>"; };
+		4C47F86827BDC820001BC6D8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4C47F86A27BDD2F1001BC6D8 /* Filme10.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Filme10.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C47F85227BDC2AC001BC6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47F86227BDC31D001BC6D8 /* SwiftKueryMySQL in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C47F84C27BDC2AC001BC6D8 = {
+			isa = PBXGroup;
+			children = (
+				4C47F85727BDC2AC001BC6D8 /* Filme10 */,
+				4C47F85627BDC2AC001BC6D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C47F85627BDC2AC001BC6D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C47F85527BDC2AC001BC6D8 /* Filme10 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C47F85727BDC2AC001BC6D8 /* Filme10 */ = {
+			isa = PBXGroup;
+			children = (
+				4C47F86A27BDD2F1001BC6D8 /* Filme10.entitlements */,
+				4C47F85827BDC2AC001BC6D8 /* main.swift */,
+				4C47F86327BDC32C001BC6D8 /* Database.swift */,
+				4C47F86527BDC65B001BC6D8 /* Model.swift */,
+				4C47F86727BDC7F2001BC6D8 /* connection.json */,
+				4C47F86827BDC820001BC6D8 /* Utils.swift */,
+			);
+			path = Filme10;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C47F85427BDC2AC001BC6D8 /* Filme10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C47F85C27BDC2AC001BC6D8 /* Build configuration list for PBXNativeTarget "Filme10" */;
+			buildPhases = (
+				4C47F85127BDC2AC001BC6D8 /* Sources */,
+				4C47F85227BDC2AC001BC6D8 /* Frameworks */,
+				4C47F85327BDC2AC001BC6D8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filme10;
+			packageProductDependencies = (
+				4C47F86127BDC31D001BC6D8 /* SwiftKueryMySQL */,
+			);
+			productName = Filme10;
+			productReference = 4C47F85527BDC2AC001BC6D8 /* Filme10 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C47F84D27BDC2AC001BC6D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4C47F85427BDC2AC001BC6D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C47F85027BDC2AC001BC6D8 /* Build configuration list for PBXProject "Filme10" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C47F84C27BDC2AC001BC6D8;
+			packageReferences = (
+				4C47F86027BDC31D001BC6D8 /* XCRemoteSwiftPackageReference "SwiftKueryMySQL" */,
+			);
+			productRefGroup = 4C47F85627BDC2AC001BC6D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C47F85427BDC2AC001BC6D8 /* Filme10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C47F85127BDC2AC001BC6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47F86627BDC65B001BC6D8 /* Model.swift in Sources */,
+				4C47F86427BDC32C001BC6D8 /* Database.swift in Sources */,
+				4C47F85927BDC2AC001BC6D8 /* main.swift in Sources */,
+				4C47F86927BDC820001BC6D8 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C47F85A27BDC2AC001BC6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C47F85B27BDC2AC001BC6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4C47F85D27BDC2AC001BC6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Filme10/Filme10.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C47F85E27BDC2AC001BC6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Filme10/Filme10.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C47F85027BDC2AC001BC6D8 /* Build configuration list for PBXProject "Filme10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C47F85A27BDC2AC001BC6D8 /* Debug */,
+				4C47F85B27BDC2AC001BC6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C47F85C27BDC2AC001BC6D8 /* Build configuration list for PBXNativeTarget "Filme10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C47F85D27BDC2AC001BC6D8 /* Debug */,
+				4C47F85E27BDC2AC001BC6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C47F86027BDC31D001BC6D8 /* XCRemoteSwiftPackageReference "SwiftKueryMySQL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/SwiftKueryMySQL";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C47F86127BDC31D001BC6D8 /* SwiftKueryMySQL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C47F86027BDC31D001BC6D8 /* XCRemoteSwiftPackageReference "SwiftKueryMySQL" */;
+			productName = SwiftKueryMySQL;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C47F84D27BDC2AC001BC6D8 /* Project object */;
+}

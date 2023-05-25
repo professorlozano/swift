@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoggerAPI",
+        "repositoryURL": "https://github.com/Kitura/LoggerAPI.git",
+        "state": {
+          "branch": null,
+          "revision": "e82d34eab3f0b05391082b11ea07d3b70d2f65bb",
+          "version": "1.9.200"
+        }
+      },
+      {
+        "package": "SwiftKuery",
+        "repositoryURL": "https://github.com/IBM-Swift/Swift-Kuery.git",
+        "state": {
+          "branch": "master",
+          "revision": "b9f53552fadf85ac0782dce4f9880d9d8189a4b3",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+          "version": "1.4.2"
+        }
+      },
+      {
+        "package": "SwiftKueryMySQL",
+        "repositoryURL": "https://github.com/Kitura/SwiftKueryMySQL",
+        "state": {
+          "branch": "master",
+          "revision": "ad6355e6fe75149efc5dc270f726edf8af867944",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
